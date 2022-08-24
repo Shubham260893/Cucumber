@@ -1,6 +1,12 @@
 package stepdefinitions;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
 import PageFactory.SearchFlightPageObject;
+import WebDriverFactory.BrowserFactory;
+import WebDriverFactory.WebDriverInstance;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
@@ -11,12 +17,19 @@ public class SearchFlightSteps {
 	
 	TestContext testcontext;
 	SearchFlightPageObject searchflightpageobject;
-	Scenario scenario;
+	WebDriver driver;
+	public static Scenario scenario;
+	
+	
 	
 	public SearchFlightSteps(TestContext context)
 	{
 		testcontext=context;
+		driver= WebDriverInstance.instanceOfDriver().getDriver();
 		searchflightpageobject= testcontext.getPageobjectManager().getsearchFlightPageObject();
+		
+		
+		
 	}
 	
 	
@@ -30,6 +43,8 @@ public class SearchFlightSteps {
 	public void i_select_in_from_journey(String trip) {
 		
 		searchflightpageobject.JourneyType(trip);
+	
+		
 	   
 	}
 	@When("I select {string} in To journey")

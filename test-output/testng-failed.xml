@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Sanity-Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Runner.MakeMyTripRunner">
+        <methods>
+          <include name="setUpScenario"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runner.MakeMyTripRunner -->
+    </classes>
+  </test> <!-- Sanity-Chrome(failed) -->
+  <test thread-count="3" parallel="methods" name="Sanity-firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Runner.MakeMyTripRunner">
+        <methods>
+          <include name="setUpScenario"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runner.MakeMyTripRunner -->
+    </classes>
+  </test> <!-- Sanity-firefox(failed) -->
+</suite> <!-- Failed suite [Regression] -->

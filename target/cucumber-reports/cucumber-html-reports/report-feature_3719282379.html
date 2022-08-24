@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber</td>
         <td>1</td>
-      <td>08 Jul 2022, 10:47</td>
+      <td>30 Jul 2022, 01:08</td>
     </tr>
   </tbody>
 </table>
@@ -140,7 +140,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="48201200">0.048</td>
+          <td class="duration" data-value="780410400">0.780</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -195,7 +195,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.048</span>
+  <span class="lead-duration duration">0.780</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -233,7 +233,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">stepdefinitions.Hooks.beforeTest(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">36.097</span>
+  <span class="lead-duration duration">10.665</span>
 
           </div>
 
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I select <span class="argument">&quot;Round Trip&quot;</span> in from journey</span>
 
-  <span class="lead-duration duration">0.047</span>
+  <span class="lead-duration duration">0.780</span>
 
 </div>
 
@@ -285,15 +285,15 @@ $(document).ready(function() {
           <a>org.openqa.selenium.NoSuchElementException:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//l[text()='Round Trip']&quot;}
-  (Session info: chrome=103.0.5060.114)
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;abcdd&quot;}
+  (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'IN-1Y872J3', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+System info: host: 'IN-1Y872J3', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6afb41ca78fb362ab5b2e1ed89749796, findElement {using=xpath, value=//l[text()='Round Trip']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60213/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6afb41ca78fb362ab5b2e1ed89749796
+Command: [d7261e17760dcad932f4d340bafbd9de, findElement {using=xpath, value=abcdd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59122/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7261e17760dcad932f4d340bafbd9de
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -309,9 +309,8 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at PageFactory.SearchFlightPageObject.JourneyType(SearchFlightPageObject.java:24)
-	at stepdefinitions.SearchFlightSteps.i_select_in_from_journey(SearchFlightSteps.java:32)
-	at &#10045;.I select &quot;Round Trip&quot; in from journey(file:///C:/Users/shubhamsharma12/eclipse-workspace/Cucumber/./src/test/resources/features/Flight.feature:5)
+	at stepdefinitions.SearchFlightSteps.i_select_in_from_journey(SearchFlightSteps.java:46)
+	at &#10045;.I select &quot;Round Trip&quot; in from journey(file:///C:/Users/shubhamsharma12/eclipse-workspace/Cucumber-Github/Cucumber/./src/test/resources/features/Flight.feature:5)
 </pre>
       </div>
     </div>
@@ -326,6 +325,53 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
 
+  <div class="inner-level hooks-step-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-5" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">stepdefinitions.Hooks.screenshotaftereverystep(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.342</span>
+
+          </div>
+
+
+
+
+
+
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>Search Flight from NewDelhi to Lucknow</a>
+      <a href="embeddings/embedding_1277614029.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1277614029.png">
+      </div>
+    </div>
+  </div>
+  </div>
+
+        </div>
+    </div>
+  </div>
 
       </div>
       <div class="step">
@@ -353,6 +399,38 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
 
+  <div class="inner-level hooks-step-after">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-7">
+
+<div class="brief failed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-7" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief skipped">
+            <span class="keyword indention">After</span>
+              <span class="location name">stepdefinitions.Hooks.screenshotaftereverystep(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
       </div>
       <div class="step">
@@ -380,6 +458,38 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
 
+  <div class="inner-level hooks-step-after">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-8">
+
+<div class="brief failed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-8" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief skipped">
+            <span class="keyword indention">After</span>
+              <span class="location name">stepdefinitions.Hooks.screenshotaftereverystep(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
       </div>
       <div class="step">
@@ -407,6 +517,38 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
 
+  <div class="inner-level hooks-step-after">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-9">
+
+<div class="brief failed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-9" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief skipped">
+            <span class="keyword indention">After</span>
+              <span class="location name">stepdefinitions.Hooks.screenshotaftereverystep(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
       </div>
       <div class="step">
@@ -434,6 +576,38 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
 
+  <div class="inner-level hooks-step-after">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#after-10">
+
+<div class="brief failed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-10" class="inner-level collapse collapsable-details  in ">
+        <div class="hook">
+          <div class="brief skipped">
+            <span class="keyword indention">After</span>
+              <span class="location name">stepdefinitions.Hooks.screenshotaftereverystep(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
 
       </div>
   </div>
@@ -443,7 +617,7 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -455,13 +629,13 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-11" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.afterTest(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.229</span>
+  <span class="lead-duration duration">1.775</span>
 
           </div>
 
@@ -472,15 +646,15 @@ Session ID: 6afb41ca78fb362ab5b2e1ed89749796
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
       <a>Search Flight from NewDelhi to Lucknow</a>
-      <a href="embeddings/embedding_-1458970312.png" download target="_blank">
+      <a href="embeddings/embedding_1277614029.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
+    <div id="embedding-12" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-1458970312.png">
+        <img src="embeddings/embedding_1277614029.png">
       </div>
     </div>
   </div>
