@@ -1,16 +1,18 @@
 package WebDriverFactory;
 
+import java.time.Duration;
 import java.util.HashSet;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriverInstance {
 
 	private static WebDriverInstance webdriverInstance;
 	protected static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
-
 	private WebDriverInstance() {
+		
 
 	}
 
